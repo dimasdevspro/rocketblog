@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  @media (min-width: 800px){
+
+    .container-upside {
+        background-color: var(--purple-bg);
+        height: 36.6875rem;
+        border-bottom: solid .3rem var(--green);
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4rem 8.4375rem;
+    }
+
+    .link-header a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 400;
+        color: var(--white);
+        margin-right: 2rem;
+    }
+    
+    .form-search {
+        display: flex;
+        align-items: center;
+    }
+
+        .form-search input {
+        width: 14.375rem;
+        height: 2.75rem;
+        padding-left: 1rem;
+        background-color: var(--dark-bg);
+        border: none;
+        border-radius: .5rem 0 0 .5rem;
+        color: var(--white);
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.125rem;
+    }
+
+    .form-search button {
+        width: 4.375rem;
+        height: 2.75rem;
+        border-radius: 0 .5rem .5rem 0;
+        background-color: var(--button-bg);
+        border: none;
+        background-image: url(./images/search.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .container-infos {
+        display: flex;
+        margin: 0 8.4375rem;
+    }
+
+    .info-leftside h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: var(--button-bg);
+        margin-bottom: 1rem;
+    }
+
+    .info-leftside p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.125rem;
+        font-weight: normal;
+        color: var(--white);
+        margin-bottom: 1.5rem;
+    }
+
+    .see-more {
+        display: flex;
+        align-items: center;
+    }
+
+    .see-more a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 400;
+        color: var(--button-bg);
+    }
+
+    .featured-image img {
+        width: 30.625rem;
+        height: 21.625rem;
+    }
+       
+    .container-downside {
+        padding: 3.75rem 8.4375rem;
+        background-color: var(--light-purple);
+    }
+
+    .articles-one {
+        display: flex;
+    }
+
+    .article-main img {
+        width: 31.8125rem;
+    height: 21.75rem
+    }
+    .article-main img, .article-tertiary-one img, .article-tertiary-two img, .article-tertiary-three img, .article-main h3, .article-main p, .article-secundary-one p, .article-secundary-one h3, .article-secundary-two p, .article-secundary-two h3, .article-tertiary-one p, .article-tertiary-two p, .article-tertiary-three p, .article-tertiary-one h3, .article-tertiary-two h3, .article-tertiary-three h3{
+        margin-bottom: 1rem;
+    }
+
+    .article-main p, .article-secundary-one p, .article-secundary-two p, .article-tertiary-one p, .article-tertiary-two p, .article-tertiary-three p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #000000;
+    }
+
+    .article-main h3, .article-secundary-one h3, .article-secundary-two h3, .article-tertiary-one h3, .article-tertiary-two h3, .article-tertiary-three h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color:var(--purple-bg);
+    }
+
+    .article-secundary-one {
+        margin-bottom: 3rem;
+    }
+
+    .articles-tertiary {
+        display: flex;
+    }
+
+    .article-tertiary-one, .article-tertiary-two, .article-tertiary-three {
+        width: 23.125rem;
+        height: 28.75rem;
+        margin-right: 2.5rem;
+    }
+
+    .article-tertiary-one img, .article-tertiary-two img, .article-tertiary-three img {
+        width: 18.6875rem;
+        height: 13.28125rem;
+    }
+  }
